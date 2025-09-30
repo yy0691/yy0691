@@ -1,0 +1,30 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天凌晨自动更新一次（强迫症友好：固定时间，绝不拖延）
+  workflow_dispatch:  # 允许手动触发（不满意随时重生成）
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake
+        uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: yy0691  # 你的GitHub用户名
+          svg_out_path: dist/github-contribution-grid-snake.svg  # 生成的蛇形图路径（固定这个，别改！）
+          # 下面的参数可以微调蛇的样式（强迫症可按需调整）
+          grid_cell_size: 12  # 格子大小（12px刚好，太大太丑）
+          snake_color: "0, 183, 121"  # 蛇的颜色（薄荷绿，和你之前的banner风格搭）
+          snake_head_color: "0, 150, 97"  # 蛇头颜色（深一点的绿，有层次感）
+          bg_color: "255, 255, 255"  # 背景色（纯白，干净）
+
+      - name: Push to repo
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output  # 自动创建一个output分支存放蛇形图
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动获取权限，不用手动配置
