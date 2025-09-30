@@ -2,52 +2,36 @@
   <img src="你的Banner图片链接" alt="Banner"/>
 </p>
 
-<h1 align="center">你好 👋, 我是 [你的名字]</h1>
-<h3 align="center">一个热衷于 [你的领域] 的开发者/学生/设计师</h3>
+👋 你好，我是 yy  
+主业：和代码打架（多数时候打平，偶尔被按在地上摩擦）  
 
 ---
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=你的用户名&label=Profile%20views&color=0e75b6&style=flat" alt="你的用户名" /> </p>
-
-- 🔭 我目前正在开发 **[你的项目名称]**
-- 🌱 我正在学习 **[你正在学习的技术, e.g., React, Go, AI]**
-- 👯 我希望能够合作 **[你希望合作的项目类型]**
-- 🤔 我正在寻找 **[你想寻求帮助的东西]** 的帮助
-- 💬 可以问我关于 **[你擅长的领域]** 的任何问题
-- 📫 如何联系我: **[你的邮箱]**
-- 😄 趣闻: **[关于你的一个有趣的事实]**
+🛠️ 我的「战场装备」：  
+- 常用武器：JavaScript / Python（前者能卷前端，后者能摸鱼写脚本）  
+- 辅助工具：Git（每天 `commit` 三次，假装自己很勤劳）  
+- 防御技能：Google + Stack Overflow（承认吧，这是程序员的本命外挂）  
 
 ---
 
-<h3 align="left">与我联系:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/你的LinkedIn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/main/src/images/icons/Social/linked-in-alt.svg" alt="你的LinkedIn" height="30" width="40" /></a>
-<a href="https://twitter.com/你的Twitter" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/main/src/images/icons/Social/twitter.svg" alt="你的Twitter" height="30" width="40" /></a>
-<a href="https://www.bilibili.com/你的B站" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/main/src/images/icons/Social/youtube.svg" alt="你的B站" height="30" width="40" /></a>
-</p>
+📌 最近在折腾：  
+- 试图让一个祖传项目的注释比代码多（进度：5%，主要在跟自己的懒癌打架）  
+- 研究「如何用最少的代码实现最多的功能」（本质是想少写两行）  
 
 ---
 
-<h3 align="left">我的技术栈:</h3>
-<p align="left">
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-    <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-</p>
+💡 我的小破项目：  
+- [某工具](链接) → 本来想做个神器，结果成了「能用但有点废程序员」的玩具  
+- [某demo](链接) → 复现了一个网上的酷炫效果，代价是发际线又后移了0.5mm  
 
 ---
 
-<h3 align="left">我的 GitHub 数据:</h3>
-<p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=你的用户名&show_icons=true&locale=cn&layout=compact&theme=tokyonight" alt="你的用户名" />
-</p>
-<p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&locale=cn&theme=dracula" alt="你的用户名" />
-</p>
+🤫 点我看秘密  
+<details>
+  <summary>（悄悄说）</summary>
+  其实我昨天把 `console.log` 写成了 `console.lgo`，找了半小时才发现...
+</details>
 
 ---
 
-<p align="center">
-  <img src="https://github.com/你的用户名/你的用户名/blob/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
+✨ 欢迎随便逛， Issues 区可撩（但别问我「这个bug为什么修不好」，我也想知道）
