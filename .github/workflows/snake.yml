@@ -29,9 +29,12 @@ jobs:
           # 关键修正：使用 v3 对应的 "outputs" 参数
           outputs: ./dist/github-contribution-grid-snake.svg
 
-      - name: Add custom style to snake (强迫症专属美化)
+     - name: Add custom style to snake (强迫症专属美化)
         run: |
-          sed -i 's/<svg /<svg style="background: white;"/' ./dist/github-contribution-grid-snake.svg
+          # 关键修正：移除末尾的'/'，并添加一个空格
+          sed -i 's/<svg /<svg style="background: white;" /' ./dist/github-contribution-grid-snake.svg
+          
+          # 下面这两行没有问题，保持原样
           sed -i 's/fill="#000"/fill="#2ecc71"/' ./dist/github-contribution-grid-snake.svg
           sed -i 's/stroke="#fff"/stroke="#27ae60"/' ./dist/github-contribution-grid-snake.svg
 
