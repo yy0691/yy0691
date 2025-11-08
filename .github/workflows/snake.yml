@@ -1,47 +1,43 @@
 name: Generate Contribution Snake
 
-# 触发条件：每天凌晨更新 + 允许手动触发
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天固定时间更新，强迫症友好
-  workflow_dispatch:  # 手动触发按钮（不满意可随时重生成）
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
-# 解决git权限问题（exit code 128的核心原因）
 permissions:
-  contents: write  # 允许action读写仓库内容
+  contents: write
 
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # 最新版checkout，避免旧版bug
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史，解决git操作失败
+          fetch-depth: 0
 
-      # ⬇️ 关键：在这里添加新步骤 ⬇️
+      # 确保目录存在
       - name: Create dist directory
         run: mkdir -p ./dist
-      # ⬆️ 关键：在这里添加新步骤 ⬆️
 
       - name: Generate snake graph
-        uses: Platane/snk@v3  # 使用稳定版本v3，避免master分支的参数变动
+        uses: Platane/snk@v3  # 使用 v3
         id: snake
         with:
-          github_user_name: yy0691  # 你的用户名（必须正确）
-          svg_out_path: ./dist/github-contribution-grid-snake.svg  # 输出路径（固定）
-          # 注意：v3版本不支持grid_cell_size等自定义参数，样式调整用CSS注入（见下方）
+          github_user_name: yy0691
+          # 关键修正：使用 v3 对应的 "outputs" 参数
+          outputs: ./dist/github-contribution-grid-snake.svg
 
       - name: Add custom style to snake (强迫症专属美化)
         run: |
-          # 用sed命令修改SVG，注入样式（解决无法通过参数自定义的问题）
-          sed -i 's/<svg /<svg style="background: white;"/' ./dist/github-contribution-grid-snake.svg  # 纯白背景
-          sed -i 's/fill="#000"/fill="#2ecc71"/' ./dist/github-contribution-grid-snake.svg  # 蛇身颜色（薄荷绿）
-          sed -i 's/stroke="#fff"/stroke="#27ae60"/' ./dist/github-contribution-grid-snake.svg  # 蛇头颜色（深绿）
+          sed -i 's/<svg /<svg style="background: white;"/' ./dist/github-contribution-grid-snake.svg
+          sed -i 's/fill="#000"/fill="#2ecc71"/' ./dist/github-contribution-grid-snake.svg
+          sed -i 's/stroke="#fff"/stroke="#27ae60"/' ./dist/github-contribution-grid-snake.svg
 
       - name: Push snake to output branch
-        uses: peaceiris/actions-gh-pages@v4  # 更稳定的推送工具，替代crazy-max
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output  # 存放蛇形图的分支（自动创建）
-          publish_dir: ./dist  # 推送dist文件夹下的内容
+          publish_branch: output
+          publish_dir: ./dist
