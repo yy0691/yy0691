@@ -19,6 +19,11 @@ jobs:
         with:
           fetch-depth: 0  # 获取完整历史，解决git操作失败
 
+      # ⬇️ 关键：在这里添加新步骤 ⬇️
+      - name: Create dist directory
+        run: mkdir -p ./dist
+      # ⬆️ 关键：在这里添加新步骤 ⬆️
+
       - name: Generate snake graph
         uses: Platane/snk@v3  # 使用稳定版本v3，避免master分支的参数变动
         id: snake
