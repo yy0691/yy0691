@@ -1,6 +1,6 @@
-<h1 align="center">
+<h2 align="center">
 一个被强迫症深度绑定、爱折腾的</br>
-产品经理 </h1>
+产品经理 </h2>
 
 
 ## 🔭 在我的仓库里，你会挖到...
@@ -20,9 +20,9 @@
 
 - 热爱文学、电影的文艺废青
 
----
+## 
 
-## 看看我的小蛇~
+## 🐍 我的本命蛇~
 
 <p align="center">
   <img src="https://github.com/yy0691/yy0691/blob/output/github-contribution-grid-snake.svg" alt="snake" />
