@@ -1,10 +1,9 @@
-<h2 align="center">
+<h1 align="center">
 一个被强迫症深度绑定、爱折腾的</br>
-产品经理 </h2>
+产品经理 </h1>
 
 
-
-### 🔭 在我的仓库里，你会挖到...
+## 🔭 在我的仓库里，你会挖到...
 
 - **办公自动化脚本** → 比如「批量检索、生成文件工具、自动化测试、批量处理图注、图片大小等」，真的抗拒重复劳动
  
@@ -13,7 +12,7 @@
 - **AI Agent 实验品** → 社群模拟、病患咨询、视频解析……重点不是功能多强，是一时兴起打造属于自己的agent
 
 
-### 🤶 我还是……
+## 🤶 我还是……
 
 - 苦命加班同时抽空自学AI的产品经理
 
@@ -26,13 +25,10 @@
 ## 看看我的小蛇~
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yy0691&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</p>
-<p align="center">
   <img src="https://github.com/yy0691/yy0691/blob/output/github-contribution-grid-snake.svg" alt="snake" />
   <br>
 </p>
 
 <p align="center">
-  <em>“强迫症产品经理的终极浪漫：代码和需求文档的对齐线重合的那一刻。”</em>
+  “强迫症产品经理的终极浪漫：代码和需求文档的对齐线重合的那一刻。”
 </p>
