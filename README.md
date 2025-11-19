@@ -1,7 +1,10 @@
+<p align="center">
+  <img src="https://github.com/yy0691/yy0691/blob/main/avatar.png" width="120px" alt="Your Avatar" style="border-radius: 75%;" />
+</p>
+
 <h2 align="center">
 一个被强迫症深度绑定、爱折腾的</br>
 产品经理 </h2>
-
 
 ### 🔭 在我的仓库里，你会挖到...
 
