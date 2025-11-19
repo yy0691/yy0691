@@ -1,4 +1,6 @@
-<h3 align="center">一个被强迫症深度绑定、爱折腾的产品经理 </h3>
+<h2 align="center">
+一个被强迫症深度绑定、爱折腾的</br>
+产品经理 </h2>
 
 
 
@@ -20,6 +22,16 @@
 - 热爱文学、电影的文艺废青
 
 ---
+
+## 看看我的小蛇~
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yy0691&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+</p>
+<p align="center">
+  <img src="https://github.com/yy0691/yy0691/blob/output/github-contribution-grid-snake.svg" alt="snake" />
+  <br>
+</p>
 
 <p align="center">
   <em>“强迫症产品经理的终极浪漫：代码和需求文档的对齐线重合的那一刻。”</em>
